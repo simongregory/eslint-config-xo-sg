@@ -1,0 +1,43 @@
+{
+  "name": "eslint-config-xo-sg",
+  "version": "0.1.0",
+  "description": "eslint config for xo configuration spiced my way",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simongregory/eslint-config-xo-sg.git"
+  },
+  "keywords": [
+    "xo",
+    "config",
+    "configuration",
+    "eslint",
+    "lint"
+  ],
+  "author": "Simon Gregory",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simongregory/eslint-config-xo-sg/issues"
+  },
+  "homepage": "https://github.com/simongregory/eslint-config-xo-sg#readme",
+  "dependencies": {
+    "eslint-config-xo-space": "^0.16.0"
+  },
+  "peerDependencies": {
+    "xo": "^0.18.1"
+  },
+  "xo": {
+    "space": true,
+    "envs": [
+      "browser",
+      "node"
+    ],
+    "esnext": true,
+    "rules": {
+      "object-curly-spacing": [
+        "error",
+        "always"
+      ]
+    }
+  }
+}
